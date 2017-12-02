@@ -22,6 +22,7 @@ bool actualizar_escuadrones(char codigo_escuadron, int cantidad_naves, char elem
         return false;
     }
 
+
     return true;
 }
 
