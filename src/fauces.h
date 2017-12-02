@@ -13,8 +13,8 @@ static const char FOSFORO= 'P';
 static const int CANTIDAD_MIN= 0;
 static const int A= 65;
 static const int Z= 90;
-//static const char* NOMBRE_ARCHIVO= "SQUAD.dat";
-//static const char* NOMBRE_ARCHIVO1= "VULNERA.dat";
+static const char* SQUADS = "SQUADS.dat";
+static const char* VULNERA = "VULNERA.dat";
 
 
 typedef struct maestro_escuadrones{

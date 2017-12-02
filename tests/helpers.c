@@ -9,7 +9,7 @@ void agregarResultado(Resultado* r1, Resultado r2) {
 
 void crearDataEscuadron() {
     FILE *file;
-    file = fopen("SQUADS.dat", "wb");
+    file = fopen(SQUADS, "wb");
     tescuadrones escuadrones[] = {
             {'A', 20, 'S', 20},
             {'B', 10, 'O', 30},
@@ -23,7 +23,7 @@ void crearDataEscuadron() {
 
 void crearDataVulnera() {
     FILE *file;
-    file = fopen("VULNERA.dat", "wb");
+    file = fopen(VULNERA, "wb");
 
     tvulnera vulneras[] = {
             {'H', 400,   200},
