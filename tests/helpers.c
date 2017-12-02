@@ -36,5 +36,9 @@ void crearDataVulnera() {
 }
 
 void imprimirTest(Resultado res, const char func[]) {
-    printf("Pasaron %i de %i en '%s'\n", res.ok, res.ok + res.fallaron, func);
+    printf("Pasaron %i de %i en '%s'\n----------------\n", res.ok, res.ok + res.fallaron, func);
+}
+
+void assert(bool b, Resultado* res) {
+    b ? res->ok++ : res->fallaron++;
 }

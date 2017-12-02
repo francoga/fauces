@@ -4,18 +4,16 @@
 
 Resultado test_actualizar_escuadrones() {
     Resultado res = {};
-
-    actualizar_escuadrones('A', 1, 'a', 1);
-
+    assert(actualizar_escuadrones('B', 11, 'S', 21), &res);
     imprimirTest(res, __func__);
     return res;
 }
 
-Resultado dummyTest() {
-    Resultado res = {};
-    imprimirTest(res, __func__);
-    return res;
-}
+//Resultado dummyTest() {
+//    Resultado res = {};
+//    imprimirTest(res, __func__);
+//    return res;
+//}
 
 
 int main() {
@@ -23,7 +21,7 @@ int main() {
     crearDataVulnera();
 
     Resultado resultado = {};
-    agregarResultado(&resultado, dummyTest());
+    agregarResultado(&resultado, test_actualizar_escuadrones());
 
     printf("\nPasaron %i de %i pruebas", resultado.ok, resultado.ok + resultado.fallaron);
 

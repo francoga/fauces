@@ -12,3 +12,4 @@ void agregarResultado(Resultado* r1, Resultado r2);
 void crearDataEscuadron();
 void crearDataVulnera();
 void imprimirTest(Resultado res, const char func[]);
+void assert(bool, Resultado*);
