@@ -15,7 +15,8 @@ static const int A= 65;
 static const int Z= 90;
 static const char* SQUADS = "SQUADS.dat";
 static const char* VULNERA = "VULNERA.dat";
-
+static const int MAX_SQUADS= 26;
+static const int MAX_VULNERA= 7;
 
 typedef struct maestro_escuadrones{
 	char codigo_escuadron;
