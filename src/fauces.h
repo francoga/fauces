@@ -22,7 +22,7 @@ typedef struct maestro_escuadrones{
 	int cantidad_naves_escuadron;
 	char elemento_ataque;
 	int potencia_ataque;
-}tescuadrones;
+}tsquad;
 
 typedef struct maestro_vulnerabilidades{
 	char codigo_elemento;

@@ -17,13 +17,13 @@ Resultado test_actualizar_escuadrones() {
 
 
 int main() {
-    crearDataEscuadron();
-    crearDataVulnera();
-
-    Resultado resultado = {};
-    agregarResultado(&resultado, test_actualizar_escuadrones());
-
-    printf("\nPasaron %i de %i pruebas", resultado.ok, resultado.ok + resultado.fallaron);
-
-    return 0;
+//    crearDataEscuadron();
+//    crearDataVulnera();
+//
+//    Resultado resultado = {};
+//    agregarResultado(&resultado, test_actualizar_escuadrones());
+//
+//    printf("\nPasaron %i de %i pruebas", resultado.ok, resultado.ok + resultado.fallaron);
+//
+//    return 0;
 }

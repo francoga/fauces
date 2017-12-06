@@ -10,7 +10,7 @@ void agregarResultado(Resultado* r1, Resultado r2) {
 void crearDataEscuadron() {
     FILE *file;
     file = fopen(SQUADS, "wb");
-    tescuadrones escuadrones[] = {
+    tsquad escuadrones[] = {
             {'A', 20, 'S', 20},
             {'B', 10, 'O', 30},
             {'X', 30, 'H', 5},
